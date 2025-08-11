@@ -1,18 +1,19 @@
-# VillageConnect
+# MERN LMS
 
-VillageConnect is a MERN stack platform connecting rural communities with services, schemes, forums, and real-time chat. It features JWT authentication, service CRUD, posts & comments, Socket.io chat, Tailwind CSS UI, and smooth navigation with React Router.
+A full-featured Learning Management System built with the MERN stack. Supports Student, Instructor, and Admin roles, course creation, video/text content, progress tracking, quizzes, AI-powered recommendations, discussion forums, real-time chat, and admin analytics.
 
 ## 🚀 Tech Stack
-- **Frontend:** React, Tailwind CSS, React Router, Vite  
+- **Frontend:** React, Tailwind CSS, React Router  
 - **Backend:** Node.js, Express.js, MongoDB, Mongoose  
 - **Real-Time:** Socket.io  
+- **AI:** OpenAI API for course assistance  
 - **Testing:** Jest, Supertest  
 
 ## ⚙️ Setup
 ```bash
 # Clone repo
-git clone https://github.com/YOUR_USERNAME/villageconnect.git
-cd villageconnect
+git clone https://github.com/YOUR_USERNAME/mern-lms.git
+cd mern-lms
 
 # Install backend
 cd backend && npm install
